@@ -21,8 +21,45 @@ This project is a fully-featured blogging platform built with the popular PHP la
 - Clone Or Download The Project
 - Find The DataBase.sql File In Project Directory
 - Import Database File In PHP My Admin
-- Open The Project On Browser
-- User Name: admin
+
+- Install dependencies:
+
+```
+composer install
+npm install
+```
+
+- Create a copy of the .env file:
+
+```
+cp .env.example .env
+```
+
+- Generate an application key:
+
+```
+php artisan key:generate
+```
+
+- For Make New Admin:
+
+```
+php artisan make:admin
+```
+
+- Link Storage:
+
+```
+php artisan storage:link
+```
+
+- Start the local development server:
+
+```
+php artisan serve
+```
+
+- Login Mail: admin@gmail.com
 - Password: 12345
 
 ## TECHNOLOGY :
