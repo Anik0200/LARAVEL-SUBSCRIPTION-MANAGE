@@ -8,9 +8,11 @@ This project is a fully-featured blogging platform built with the popular PHP la
 - Authentication & Authorization
 - Admin Dashboard
 - CRUD Functionality
-- Category Management
-- Post Management
-- Comment Management
+- User Management
+- Subscription Management
+- Subscription Report
+- Subscription End Alert
+- Subscription Filtering By date
 - Search Functionality
 - Responsive Design
 - Clean and Modern Layout
